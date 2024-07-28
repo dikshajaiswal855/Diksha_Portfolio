@@ -2,12 +2,13 @@ import {
     Github,
     Home,
     Linkedin,
+    LucideCode2,
     NotebookText,
     Palette,
     Phone,
-    Twitter,
     User,
   } from "lucide-react";
+  // import {Leetcode} from LucideCode2;
   import Link from "next/link";
   import React from "react";
   import ResponsiveComponent from "../ResponsiveComponent";
@@ -28,8 +29,8 @@ import {
         return <Github className="w-full h-auto" strokeWidth={1.5} />;
       case "linkedin":
         return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
-      case "twitter":
-        return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
+      case "leetcode":
+        return <LucideCode2 className="w-full h-auto" strokeWidth={1.5} />;
       case "resume":
         return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
   

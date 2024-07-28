@@ -23,6 +23,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/favicon.ico" />
+        <title>{metadata.title.default}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
       <body
         className={clsx(
           inter.variable,
